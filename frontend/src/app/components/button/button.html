@@ -1,0 +1,15 @@
+<button
+  type="button"
+  (click)="onClick()"
+  class="cursor-pointer inline-flex grow items-center justify-center rounded-xl px-4 py-2.5 text-sm font-semibold transition focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-rose-400 focus-visible:ring-offset-2 focus-visible:ring-offset-rose-950"
+  [ngClass]="{
+    'bg-rose-700 text-rose-50 shadow-inner shadow-rose-900/40 hover:bg-rose-600':
+      kind() === 'primary',
+    'bg-rose-900/70 text-rose-100 border border-rose-700/80 hover:bg-rose-800':
+      kind() === 'secondary',
+    'border border-rose-600/80 text-rose-200 bg-transparent hover:bg-rose-900/70 hover:text-rose-50':
+      kind() === 'ghost'
+  }"
+>
+  {{ label() }}
+</button>

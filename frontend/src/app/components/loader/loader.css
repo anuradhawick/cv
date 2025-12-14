@@ -1,0 +1,44 @@
+:host {
+  position: relative;
+}
+
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.loader-backdrop {
+  position: absolute;
+  inset: 0;
+  backdrop-filter: blur(4px);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.loader-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 16px 20px;
+  border-radius: 12px;
+}
+
+.spinner {
+  width: 200px;
+  height: 200px;
+  border: 15px solid rgba(255, 255, 255, 0.6);
+  border-top-color: #82181a;
+  border-radius: 50%;
+  animation: spin 0.9s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}

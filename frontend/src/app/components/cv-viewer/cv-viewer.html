@@ -1,0 +1,68 @@
+<app-intro />
+
+<hr class="my-4" />
+
+<app-work-experience />
+<hr class="my-4" />
+
+<!-- education -->
+@if (viewerStatus().education){
+<app-education />
+<hr class="my-4" />
+}
+
+<app-posters-presentations />
+
+<hr class="my-4" />
+
+<!-- publications -->
+@if (viewerStatus().publications){
+<app-publications />
+<hr class="my-4" />
+}
+
+<!-- certifications -->
+@if (viewerStatus().certifications){
+<app-training-certifications />
+<hr class="my-4" />
+}
+
+<!-- software tools -->
+@if (viewerStatus().softwareTools){
+<app-software-tools />
+<hr class="my-4" />
+}
+
+<app-awards-achievements />
+
+<hr class="my-4" />
+
+<!-- skills -->
+@if (viewerStatus().skills){
+<app-skills />
+<hr class="my-4" />
+}
+
+<p class="text-4xl">Additional Information</p>
+<br />
+<p>
+  I love travelling, cooking and taking care of my tiny garden. Feel free to visit my other
+  websites.
+</p>
+<ul class="list-disc ml-8">
+  <li>
+    <a href="https://anuradhawick.com" target="_blank" class="cyan-300" rel="noopener noreferrer">
+      https://anuradhawick.com
+    </a>
+  </li>
+  <li>
+    <a
+      href="https://thearachchistyle.com"
+      target="_blank"
+      class="cyan-300"
+      rel="noopener noreferrer"
+    >
+      https://thearachchistyle.com
+    </a>
+  </li>
+</ul>

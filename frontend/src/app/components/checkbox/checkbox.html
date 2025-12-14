@@ -1,0 +1,23 @@
+<label
+  class="flex cursor-pointer items-center gap-3 rounded-xl border border-rose-700/70 bg-rose-950/80 px-4 py-3 text-sm text-rose-100 shadow-sm transition hover:border-rose-400 hover:bg-rose-900/70"
+>
+  <span
+    class="relative inline-flex h-5 w-5 items-center justify-center rounded-md border border-rose-600 bg-rose-950/90 shadow-inner shadow-rose-900/60"
+  >
+    <input
+      type="checkbox"
+      class="peer absolute inset-0 h-full w-full cursor-pointer opacity-0"
+      [checked]="checked()"
+      (change)="onToggleChecked()"
+    />
+
+    <span
+      class="pointer-events-none inline-block h-3 w-3 scale-0 rounded-[3px] bg-rose-500 shadow-sm shadow-rose-900/80 transition-transform duration-150 ease-out peer-checked:scale-100"
+    ></span>
+  </span>
+
+  <span class="flex flex-col leading-snug">
+    <span class="font-medium text-rose-50">{{ title() }}</span>
+    <span class="text-[0.75rem] text-rose-300/90">{{ description() }}</span>
+  </span>
+</label>

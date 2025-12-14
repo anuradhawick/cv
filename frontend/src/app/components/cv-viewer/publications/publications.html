@@ -1,0 +1,42 @@
+<dialog
+  #dialog
+  class="backdrop:bg-white/30 backdrop:backdrop-blur-xs m-auto p-4 shadow-2xl rounded-2xl"
+>
+  <div>
+    Details of the publication...
+    <select>
+      <option value="default">Choose…</option>
+      <option>United States</option>
+      <option>France</option>
+      <option>Australia</option>
+    </select>
+  </div>
+  <div>
+    <button (click)="dialog.close()">OK</button>
+  </div>
+</dialog>
+
+<p class="text-4xl">Publications</p>
+<span class="italic"
+  >Updated on: DD/MM/YYYY from
+  <a
+    href="https://scholar.google.com/citations?hl=en&user=u-rFXwUAAAAJ"
+    class="text-cyan-300 underline break-all"
+    target="_blank"
+    rel="noopener noreferrer"
+    >Google Scholar</a
+  ></span
+>
+<br />
+Display manuscripts <span class="italic text-cyan-300 underline">All</span>,
+<span class="cursor-pointer italic text-cyan-300 underline">2025</span>,
+<span class="cursor-pointer italic text-cyan-300 underline">Recent 10</span>,
+<span class="cursor-pointer italic text-cyan-300 underline">Most Cited 10</span>
+<br />
+In the order <span class="italic text-cyan-300 underline">Recent</span>,
+<span class="cursor-pointer italic text-cyan-300 underline">Oldest</span>,
+<span class="cursor-pointer italic text-cyan-300 underline">Most cited</span>,
+<span class="cursor-pointer italic text-cyan-300 underline">Least cited</span>
+<ul class="list-disc ml-8 text-xl">
+  <li (click)="dialog.showModal()" class="text-cyan-300">item</li>
+</ul>

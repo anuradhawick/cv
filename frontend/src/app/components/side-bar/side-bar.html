@@ -1,0 +1,52 @@
+<!-- Avatar -->
+<div class="flex flex-col items-center gap-3">
+  <div
+    class="h-64 w-64 overflow-hidden rounded-full border-4 border-rose-500 bg-rose-900/60 shadow-lg"
+  >
+    <!-- Replace src with your actual profile image path -->
+    <img src="/me-removebg.png" alt="Profile picture" class="h-full w-full object-cover" />
+  </div>
+  <div class="text-center">
+    <h2 class="text-lg font-semibold tracking-wide text-rose-100">Anuradha</h2>
+    <p class="text-xs uppercase tracking-[0.2em] text-rose-300">Engineer | Researcher</p>
+  </div>
+</div>
+
+<!-- Divider -->
+<div class="h-px w-full bg-linear-to-r from-rose-800 via-rose-600 to-rose-800/60 my-1"></div>
+
+<!-- Navigation buttons -->
+<form>
+  <nav class="flex w-full flex-1 flex-col gap-3">
+    <app-checkbox
+      [field]="viewOptionsForm.publications"
+      title="Publications"
+      description="Fetched from Google Scholar"
+    />
+    <app-checkbox
+      [field]="viewOptionsForm.certifications"
+      title="Certifications"
+      description="Professional certifications"
+    />
+    <app-checkbox
+      [field]="viewOptionsForm.education"
+      title="Education"
+      description="Educational background"
+    />
+    <app-checkbox [field]="viewOptionsForm.skills" title="Skills" description="Skills details" />
+    <app-checkbox
+      [field]="viewOptionsForm.softwareTools"
+      title="Software Tools"
+      description="Software tools expertise"
+    />
+    <!-- <app-button label="About Me" kind="primary" class="flex grow"></app-button>
+  <app-button label="Experience" kind="secondary" class="flex grow"></app-button>
+  <app-button label="Projects" kind="secondary" class="flex grow"></app-button>
+  <app-button label="Contact" kind="ghost" class="flex grow mt-2"></app-button> -->
+  </nav>
+</form>
+
+<!-- Footer / small tagline -->
+<div class="mt-4 text-[0.7rem] text-rose-400/90 text-center">
+  <p class="tracking-[0.18em] uppercase">Copyright © 2025 Anuradha</p>
+</div>

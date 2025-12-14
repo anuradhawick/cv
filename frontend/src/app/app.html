@@ -1,0 +1,12 @@
+<div class="flex min-h-screen bg-rose-950/95 text-rose-50">
+  <aside
+    class="flex w-80 flex-col items-center gap-8 border-r border-rose-900/70 bg-rose-950 px-6 py-8 shadow-xl"
+  >
+    <app-side-bar />
+  </aside>
+
+  <main class="flex-1 bg-rose-950/90 px-8 py-8 text-rose-50">
+    <router-outlet />
+  </main>
+</div>
+<app-loader />
