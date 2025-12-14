@@ -29,8 +29,7 @@ module "webapp_go_api" {
       patterns = [
         "!.*",
         "bootstrap",
-        "citations.html",
-        "citations.json",
+        "assets/.+",
       ]
     }
   ]

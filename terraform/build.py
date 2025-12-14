@@ -40,7 +40,7 @@ def npm_install(cmd: str, dir: str):
 
 
 def write_env(content: str, dir: str):
-    with open(os.path.join(dir, ".env"), "a") as f:
+    with open(os.path.join(dir, ".env"), "w+") as f:
         f.write(content + "\n")
 
 

@@ -20,7 +20,7 @@ func init() {
 func main() {
 	router := lambdamux.NewLambdaMux()
 
-	router.POST("/citations", GetCitations)
+	router.GET("/citations", GetCitations)
 
 	lambda.Start(router.Handle)
 }
