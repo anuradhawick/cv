@@ -39,9 +39,16 @@ def npm_install(cmd: str, dir: str):
     assert code == 0, "ERROR: npm install returned non-zero exit"
 
 
-def write_env(content: str, dir: str):
-    with open(os.path.join(dir, ".env"), "w+") as f:
-        f.write(content + "\n")
+def write_env(api_url: str, dir: str):
+    content = f"""export const environment = {{ api: "{api_url}" }};"""
+
+    with open(
+        os.path.join(dir, "src", "environments", "environment.ts"), "w+"
+    ) as fe, open(
+        os.path.join(dir, "src", "environments", "environment.development.ts"), "w+"
+    ) as fed:
+        fe.write(content + "\n")
+        fed.write(content + "\n")
 
 
 def build(cmd: str, dir: str):
@@ -63,6 +70,6 @@ if __name__ == "__main__":
     api_url = args["api_url"]
 
     npm_install(install_cmd, webapp_dir)
-    write_env(f"VITE_API_URL={api_url}", webapp_dir)
+    write_env(api_url, webapp_dir)
     build(build_cmd, webapp_dir)
     print(f""" {{ "hash": "{hash_dir(build_destination)}" }} """)

@@ -28,15 +28,57 @@
   ></span
 >
 <br />
-Display manuscripts <span class="italic text-cyan-300 underline">All</span>,
-<span class="cursor-pointer italic text-cyan-300 underline">2025</span>,
-<span class="cursor-pointer italic text-cyan-300 underline">Recent 10</span>,
-<span class="cursor-pointer italic text-cyan-300 underline">Most Cited 10</span>
+Display manuscripts
+<span
+  [class.font-bold]="displayMode() === DisplayMode.ALL"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setDisplayMode(DisplayMode.ALL)"
+  >All</span
+>,
+<span
+  [class.font-bold]="displayMode() === DisplayMode.YEAR_2025"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setDisplayMode(DisplayMode.YEAR_2025)"
+  >2025</span
+>,
+<span
+  [class.font-bold]="displayMode() === DisplayMode.RECENT_10"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setDisplayMode(DisplayMode.RECENT_10)"
+  >Recent 10</span
+>,
+<span
+  [class.font-bold]="displayMode() === DisplayMode.MOST_CITED_10"
+  class="cursor-pointer italic text-cyan-300 underline"
+  >Most Cited 10</span
+>
 <br />
-In the order <span class="italic text-cyan-300 underline">Recent</span>,
-<span class="cursor-pointer italic text-cyan-300 underline">Oldest</span>,
-<span class="cursor-pointer italic text-cyan-300 underline">Most cited</span>,
-<span class="cursor-pointer italic text-cyan-300 underline">Least cited</span>
+In the order
+<span
+  [class.font-bold]="sortOrder() === SortOrder.RECENT"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setSortOrder(SortOrder.RECENT)"
+  >Recent</span
+>,
+<span
+  [class.font-bold]="sortOrder() === SortOrder.OLDEST"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setSortOrder(SortOrder.OLDEST)"
+  >Oldest</span
+>,
+<span
+  [class.font-bold]="sortOrder() === SortOrder.MOST_CITED"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setSortOrder(SortOrder.MOST_CITED)"
+  >Most cited</span
+>,
+<span
+  [class.font-bold]="sortOrder() === SortOrder.LEAST_CITED"
+  class="cursor-pointer italic text-cyan-300 underline"
+  (click)="setSortOrder(SortOrder.LEAST_CITED)"
+  >Least cited</span
+>
+
 <ul class="list-disc ml-8 text-xl">
   <li (click)="dialog.showModal()" class="text-cyan-300">item</li>
 </ul>
