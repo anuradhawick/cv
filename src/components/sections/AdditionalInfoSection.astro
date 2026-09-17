@@ -1,0 +1,30 @@
+---
+import profile from '../../data/profile.json';
+import SectionContainer from '../SectionContainer.astro';
+---
+
+<SectionContainer id="additional" title="Additional Information" hideDivider={true}>
+  <div class="cv-card rounded-xl border border-[var(--border-color)] bg-[var(--card-bg)] p-5 sm:p-6 space-y-4 shadow-xs">
+    <p class="text-base sm:text-lg text-[var(--text-secondary)] leading-relaxed">
+      {profile.interests}
+    </p>
+
+    <div class="space-y-2 pt-2 border-t border-[var(--border-color)]">
+      <p class="text-xs uppercase tracking-wider font-semibold text-[var(--text-muted)]">Websites</p>
+      <ul class="space-y-1.5 list-disc list-outside ml-5 text-sm sm:text-base">
+        {profile.additionalWebsites.map((site) => (
+          <li>
+            <a
+              href={site.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="text-[var(--accent-color)] hover:underline break-all"
+            >
+              {site.name}: {site.url}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</SectionContainer>

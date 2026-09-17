@@ -1,0 +1,48 @@
+{
+  "name": "Anuradha Wickramarachchi, PhD",
+  "shortName": "Anuradha",
+  "tagline": "Software Engineer · Scientist · Researcher",
+  "subTagline": "Engineer · Scientist · Researcher",
+  "avatar": "/me-removebg.png",
+  "email": "anuradha.c.wickramarachchi@gmail.com",
+  "location": "Adelaide, Australia",
+  "summary": "I am a Software Engineer at AML3D developing algorithms for advanced manufacturing applications (Wire Arc Additive Manufacturing – WAAM). With a PhD in Computer Science from the Australian National University (ANU) and background as a Solutions Architect at CSIRO, I bridge software engineering, computational science, and research across advanced manufacturing, distributed cloud systems, and machine learning.\n\nPreviously at Commonwealth Scientific and Industrial Research Organisation (CSIRO), I designed and built solutions for population-scale health and biosecurity problems that scale to real-world population sizes.\n\nI am passionate about high-performance computing, distributed cloud systems, data engineering, bioinformatics, and computational geometry.",
+  "links": [
+    {
+      "label": "Website",
+      "url": "https://anuradhawick.com"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/anuradhawick"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/anuradhawick/"
+    },
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com/citations?hl=en&user=u-rFXwUAAAAJ"
+    },
+    {
+      "label": "Bluesky",
+      "url": "https://bsky.app/profile/anuradhawick.bsky.social"
+    },
+    {
+      "label": "Blog",
+      "url": "https://thearachchistyle.com"
+    }
+  ],
+  "additionalWebsites": [
+    {
+      "name": "Personal Portfolio",
+      "url": "https://anuradhawick.com"
+    },
+    {
+      "name": "The Arachchi Style",
+      "url": "https://thearachchistyle.com"
+    }
+  ],
+  "interests": "Beyond day-to-day engineering and research, I love tinkering on single-board computers (SBCs), travelling, cooking, taking care of my tiny garden, and gaming (PC/Xbox/PlayStation).",
+  "copyrightYear": "2026"
+}

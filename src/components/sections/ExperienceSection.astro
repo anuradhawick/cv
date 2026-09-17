@@ -1,0 +1,41 @@
+---
+import experience from '../../data/experience.json';
+import SectionContainer from '../SectionContainer.astro';
+---
+
+<SectionContainer id="experience" title={experience.sectionTitle}>
+  <div class="space-y-6">
+    {experience.items.map((job) => (
+      <div class="cv-card rounded-xl border border-[var(--border-color)] bg-[var(--card-bg)] p-5 sm:p-6 shadow-xs transition hover:border-[var(--accent-color)]">
+        <div class="flex flex-col sm:flex-row sm:items-baseline sm:justify-between gap-1 pb-2 border-b border-[var(--border-color)]">
+          <div>
+            <h3 class="text-xl sm:text-2xl font-bold text-[var(--text-primary)]">
+              {job.role}
+            </h3>
+            <p class="text-base sm:text-lg font-semibold text-[var(--accent-color)]">
+              {job.company}
+            </p>
+          </div>
+          <div class="text-xs sm:text-sm font-medium text-[var(--text-muted)]">
+            <span>{job.period}</span>
+            {job.location && <span> • {job.location}</span>}
+          </div>
+        </div>
+
+        {job.summary && (
+          <p class="mt-4 text-base text-[var(--text-secondary)] leading-relaxed">
+            {job.summary}
+          </p>
+        )}
+
+        {job.highlights && job.highlights.length > 0 && (
+          <ul class="mt-4 space-y-2 list-disc list-outside ml-5 text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+            {job.highlights.map((highlight) => (
+              <li>{highlight}</li>
+            ))}
+          </ul>
+        )}
+      </div>
+    ))}
+  </div>
+</SectionContainer>

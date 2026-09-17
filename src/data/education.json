@@ -1,0 +1,28 @@
+{
+  "sectionTitle": "Education",
+  "items": [
+    {
+      "degree": "Doctor of Philosophy in Computer Science",
+      "institution": "School of Computing, Australian National University",
+      "location": "Canberra, Australia",
+      "period": "August 2018 - December 2022",
+      "description": "Models and algorithms for analysing genomic data from microbial communities. I used machine learning models (ANNs and GNNs) and algorithms (for feature generation and clustering) to analyse metagenomic data for understanding microbial communities.",
+      "highlights": [
+        "ANU Merit Fee Remission and PhD Scholarships recipient",
+        "Developed novel graph-based and deep-learning metagenomic binners (GraphBin, LRBinner, MetaBCC-LR, PlasLR)"
+      ]
+    },
+    {
+      "degree": "BSc (Hons) Computer Science and Engineering",
+      "institution": "Department of Computer Science and Engineering, University of Moratuwa",
+      "location": "Moratuwa, Sri Lanka",
+      "period": "February 2014 - December 2017",
+      "description": "Graduated with First Class Honours. Final year project on \"Personal cloud device with peer to peer remote file sharing\". GPA of 4.06/4.2.",
+      "highlights": [
+        "First class honours with Dean's list recognition for all 8 semesters",
+        "Mahapola Sri Lankan undergraduate merit-based scholarship recipient",
+        "GCE Advanced Level Island Rank 68 (District Rank 4)"
+      ]
+    }
+  ]
+}

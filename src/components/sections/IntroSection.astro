@@ -1,0 +1,41 @@
+---
+import profile from '../../data/profile.json';
+import SectionContainer from '../SectionContainer.astro';
+---
+
+<SectionContainer id="intro">
+  <div class="space-y-6">
+    <div class="border-b border-[var(--border-color)] pb-6">
+      <div class="inline-block px-2.5 py-1 rounded-full text-xs font-semibold bg-[var(--bg-tertiary)] text-[var(--accent-color)] border border-[var(--border-color)] mb-3">
+        {profile.tagline}
+      </div>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-[var(--text-primary)] leading-tight">
+        {profile.name}
+      </h1>
+      <div class="mt-4 flex flex-wrap items-center gap-y-2 gap-x-4 text-sm text-[var(--text-secondary)]">
+        <div class="flex items-center gap-1.5">
+          <svg class="w-4 h-4 text-[var(--accent-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+          </svg>
+          <span>{profile.location}</span>
+        </div>
+        <span class="text-[var(--border-color)]">•</span>
+        <div class="flex items-center gap-1.5">
+          <svg class="w-4 h-4 text-[var(--accent-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+          </svg>
+          <a href={`mailto:${profile.email}`} class="text-[var(--accent-color)] hover:underline break-all">
+            {profile.email}
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="space-y-4 text-base sm:text-lg leading-relaxed text-[var(--text-secondary)] font-normal">
+      {profile.summary.split('\n\n').map((paragraph) => (
+        <p>{paragraph}</p>
+      ))}
+    </div>
+  </div>
+</SectionContainer>

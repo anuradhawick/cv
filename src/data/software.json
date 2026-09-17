@@ -1,0 +1,75 @@
+{
+  "sectionTitle": "Software and Tools",
+  "groups": [
+    {
+      "category": "Research Software",
+      "items": [
+        {
+          "name": "RSBio-Seq",
+          "description": "Fast lightweight genomic sequence reader/writer in Rust",
+          "url": "https://github.com/anuradhawick/rsbio-seq"
+        },
+        {
+          "name": "KmerTools",
+          "description": "High performance k-mer generation tool",
+          "url": "https://github.com/anuradhawick/kmertools"
+        },
+        {
+          "name": "OBLR",
+          "description": "PacBio/ONT graph based binner for metagenomics",
+          "url": "https://github.com/anuradhawick/oblr"
+        },
+        {
+          "name": "LRBinner",
+          "description": "PacBio/ONT reads binning tool using deep learning and assembly graphs",
+          "url": "https://github.com/anuradhawick/LRBinner"
+        },
+        {
+          "name": "MetaBCC-LR",
+          "description": "PacBio/ONT reads binning tool by coverage and composition",
+          "url": "https://github.com/anuradhawick/MetaBCC-LR"
+        },
+        {
+          "name": "PlasLR",
+          "description": "Plasmid classification extension for PacBio/ONT reads",
+          "url": "https://github.com/anuradhawick/PlasLR"
+        },
+        {
+          "name": "GraphPlas",
+          "description": "Graph based plasmid classification extension tool",
+          "url": "https://github.com/anuradhawick/GraphPlas"
+        }
+      ]
+    },
+    {
+      "category": "General & Web Applications",
+      "items": [
+        {
+          "name": "Clipper",
+          "description": "Clipboard manager with productivity features",
+          "url": "https://github.com/anuradhawick/clipper"
+        },
+        {
+          "name": "TypeFaster",
+          "description": "AWS Serverless website to practice touch typing",
+          "url": "https://typefaster.anuradhawick.com"
+        },
+        {
+          "name": "IceBreak",
+          "description": "AWS Serverless website for group interval-breaks",
+          "url": "https://icebreak.anuradhawick.com"
+        },
+        {
+          "name": "Vinyl.LK",
+          "description": "AWS Serverless/Atlas Mongo hosted catalog for Sri Lankan vinyl records",
+          "url": "https://www.vinyl.lk"
+        },
+        {
+          "name": "YOLO Object Annotation Maker",
+          "description": "Custom desktop tool for rapid YOLO annotation generation",
+          "url": "https://github.com/anuradhawick/Object-Annotation-Maker"
+        }
+      ]
+    }
+  ]
+}

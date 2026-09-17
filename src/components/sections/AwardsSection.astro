@@ -1,0 +1,22 @@
+---
+import awards from '../../data/awards.json';
+import SectionContainer from '../SectionContainer.astro';
+---
+
+<SectionContainer id="awards" title={awards.sectionTitle}>
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    {awards.categories.map((cat) => (
+      <div class="cv-card rounded-xl border border-[var(--border-color)] bg-[var(--card-bg)] p-5 sm:p-6 shadow-xs transition hover:border-[var(--accent-color)]">
+        <h3 class="text-xl font-bold text-[var(--text-primary)] pb-2 border-b border-[var(--border-color)]">
+          {cat.name}
+        </h3>
+
+        <ul class="mt-4 space-y-2.5 list-disc list-outside ml-5 text-sm sm:text-base text-[var(--text-secondary)] leading-relaxed">
+          {cat.items.map((item) => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </div>
+    ))}
+  </div>
+</SectionContainer>

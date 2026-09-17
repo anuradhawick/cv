@@ -1,0 +1,28 @@
+---
+import certifications from '../../data/certifications.json';
+import SectionContainer from '../SectionContainer.astro';
+---
+
+<SectionContainer id="certifications" title={certifications.sectionTitle}>
+  <div class="cv-card rounded-xl border border-[var(--border-color)] bg-[var(--card-bg)] p-5 sm:p-6 shadow-xs">
+    <ul class="space-y-4">
+      {certifications.items.map((cert) => (
+        <li class="flex flex-col sm:flex-row sm:items-baseline justify-between gap-2 pb-3 border-b border-[var(--border-color)] last:border-0 last:pb-0">
+          <div>
+            <h3 class="text-base sm:text-lg font-semibold text-[var(--text-primary)]">
+              {cert.name}
+            </h3>
+            {cert.issuer && (
+              <p class="text-xs sm:text-sm text-[var(--text-muted)]">
+                {cert.issuer}
+              </p>
+            )}
+          </div>
+          <span class="rounded-sm bg-[var(--bg-tertiary)] px-2 py-0.5 text-xs font-semibold text-[var(--text-muted)] border border-[var(--border-color)] self-start sm:self-auto shrink-0">
+            {cert.year}
+          </span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</SectionContainer>

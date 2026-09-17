@@ -1,0 +1,82 @@
+[
+  {
+    "id": "intro",
+    "title": "About / Intro",
+    "description": "Background, bio and summary",
+    "defaultVisible": true,
+    "toggleable": false,
+    "nav": true
+  },
+  {
+    "id": "experience",
+    "title": "Work Experience",
+    "description": "Industry & solutions architect experience",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "education",
+    "title": "Education",
+    "description": "PhD and undergraduate degrees",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "publications",
+    "title": "Publications",
+    "description": "Synced with Google Scholar",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "skills",
+    "title": "Skills",
+    "description": "DevOps, programming & ML expertise",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "software",
+    "title": "Software & Tools",
+    "description": "Research software & general tools",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "presentations",
+    "title": "Posters & Talks",
+    "description": "Conferences, presentations and panels",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "awards",
+    "title": "Awards & Honors",
+    "description": "Academic & CSIRO recognitions",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "certifications",
+    "title": "Certifications",
+    "description": "Professional training credentials",
+    "defaultVisible": true,
+    "toggleable": true,
+    "nav": true
+  },
+  {
+    "id": "additional",
+    "title": "Additional Info",
+    "description": "Personal interests & links",
+    "defaultVisible": true,
+    "toggleable": false,
+    "nav": true
+  }
+]

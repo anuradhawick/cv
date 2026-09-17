@@ -1,0 +1,37 @@
+---
+interface Props {
+  id: string;
+  title?: string;
+  subtitle?: string;
+  hideDivider?: boolean;
+}
+
+const { id, title, subtitle, hideDivider = false } = Astro.props;
+---
+
+<section id={id} data-section-id={id} class="cv-section scroll-mt-8 transition-opacity duration-200">
+  {title && (
+    <div class="mb-6 flex flex-col gap-1">
+      <div class="flex items-center gap-3">
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight text-[var(--text-primary)]">
+          {title}
+        </h2>
+        <a
+          href={`#${id}`}
+          class="opacity-0 hover:opacity-100 transition-opacity text-[var(--text-muted)] hover:text-[var(--accent-color)] text-xl font-mono no-print"
+          title={`Direct link to ${title}`}
+          aria-label={`Link to ${title}`}
+        >
+          #
+        </a>
+      </div>
+      {subtitle && <p class="text-sm text-[var(--text-secondary)] italic">{subtitle}</p>}
+    </div>
+  )}
+
+  <slot />
+
+  {!hideDivider && (
+    <hr class="my-10 border-[var(--border-color)]" />
+  )}
+</section>

@@ -1,0 +1,30 @@
+{
+  "sectionTitle": "Work Experience",
+  "items": [
+    {
+      "role": "Software Engineer",
+      "company": "AML3D",
+      "location": "Australia",
+      "period": "2024 - Present",
+      "summary": "Developing core algorithms and software pipelines for advanced industrial manufacturing applications (Wire Arc Additive Manufacturing – WAAM).",
+      "highlights": [
+        "Design and implement computational geometry and algorithmic control pipelines for robotic metal 3D printing (WAAM).",
+        "Develop high-performance toolpath generation, slicing, and kinematic planning algorithms.",
+        "Bridge advanced computational engineering, software development, and industrial manufacturing automation."
+      ]
+    },
+    {
+      "role": "Solutions Architect",
+      "company": "Commonwealth Scientific and Industrial Research Organisation (CSIRO)",
+      "location": "Canberra, Australia",
+      "period": "2022 - 2024",
+      "summary": "Designed and built solutions for population-scale health and biosecurity problems with the Transformational Bioinformatics Group.",
+      "highlights": [
+        "Architected and built cloud-native distributed platforms and pipelines handling population-scale genomics and infectious disease biosecurity data.",
+        "Designed scalable genomic search and data exchange protocols including GA4GH Beacon standards (sBeacon, AskBeacon).",
+        "Led DevOps, Infrastructure as Code (Terraform), and cloud infrastructure architecture across distributed teams.",
+        "Awarded CSIRO Entrepreneurship Award 2024 (Indonesia biosecurity platform) and CSIRO Science & Engineering Award 2022 (SARS-CoV-2 monitoring capability)."
+      ]
+    }
+  ]
+}

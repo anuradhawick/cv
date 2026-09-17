@@ -1,0 +1,36 @@
+{
+  "sectionTitle": "Awards and Achievements",
+  "categories": [
+    {
+      "name": "Academic",
+      "items": [
+        "ANU Merit Fee Remission and PhD Scholarships (Australian National University)",
+        "Dean's List recognition for all 8 semesters during BSc (Hons), University of Moratuwa",
+        "Mahapola Sri Lankan Undergraduate Merit Scholarship",
+        "GCE Advanced Level Island Rank 68 (District Rank 4 in Sri Lanka)"
+      ]
+    },
+    {
+      "name": "CSIRO Awards",
+      "items": [
+        "Entrepreneurship Award 2024 – For providing bioinformatics and data exchange capability for Indonesia",
+        "Science and Engineering Award 2022 – For increasing Indo-Pacific SARS-CoV-2 monitoring capability"
+      ]
+    },
+    {
+      "name": "Industry & National Awards",
+      "items": [
+        "Merit Award – National Best Quality ICT Awards (NBQSA) Oct 2017 (Sri Lanka) for Final Year Honours Project",
+        "Merit Award – National Best Quality ICT Awards (NBQSA) Oct 2016 (Sri Lanka) for Taxi Master Project"
+      ]
+    },
+    {
+      "name": "Hackathons & Competitions",
+      "items": [
+        "First Place: IDEA Challenge 2017",
+        "1st Runners Up: Google I/O 2016 (May 2016)",
+        "First Place: IDEA Challenge 2016"
+      ]
+    }
+  ]
+}

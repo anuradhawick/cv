@@ -1,0 +1,45 @@
+{
+  "sectionTitle": "Posters and Presentations",
+  "items": [
+    {
+      "event": "ABACBS+SBEI 2025",
+      "details": "Talk on AskBeacon (AI driven data exchange at scale), Poster on TRECA (trusted research environments and clinical applications), and Panelist at SBEI 2025",
+      "year": 2025
+    },
+    {
+      "event": "GA4GH Connect 2024",
+      "details": "Proposals for Using the OR Boolean Operator in GA4GH Beacon Protocol",
+      "year": 2024
+    },
+    {
+      "event": "ICG 2023",
+      "details": "sBeacon – ontology aware querying of genomic data at scale",
+      "year": 2023
+    },
+    {
+      "event": "Microbiology Society Meeting 2022",
+      "details": "Metagenomics binning by coverage and composition for long reads",
+      "year": 2022
+    },
+    {
+      "event": "RECOMB-CG 2022",
+      "details": "Metagenomics binning of long reads using read-overlap graphs",
+      "year": 2022
+    },
+    {
+      "event": "WABI 2021",
+      "details": "LRBinner: binning long reads in metagenomics datasets",
+      "year": 2021
+    },
+    {
+      "event": "GLBIO 2021",
+      "details": "PlasLR Enables Adaptation of Plasmid Prediction for Error-Prone Long Reads",
+      "year": 2021
+    },
+    {
+      "event": "ISMB 2020",
+      "details": "MetaBCC-LR: metagenomics binning by coverage and composition for long reads",
+      "year": 2020
+    }
+  ]
+}

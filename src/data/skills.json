@@ -1,0 +1,47 @@
+{
+  "sectionTitle": "Skills",
+  "categories": [
+    {
+      "name": "Dev Ops & Cloud",
+      "items": [
+        "Terraform & Infrastructure as Code (IaC)",
+        "Population-scale genomic data platform development",
+        "CI/CD Pipelines (GitHub Actions, GitLab CI)",
+        "High scale systems architecture & AWS Serverless (Lambda, API Gateway, DynamoDB, S3, CloudFront)"
+      ]
+    },
+    {
+      "name": "Programming Languages",
+      "items": [
+        "Rust",
+        "Go",
+        "Python",
+        "C / C++",
+        "Java",
+        "JavaScript / TypeScript",
+        "Node.js"
+      ],
+      "note": "Command line and web development of research software in Rust, Go and Python. Industrial experience in ReactJS, MongoDB, AWS Serverless and AWS developer console. Research experience in Python, C and C++."
+    },
+    {
+      "name": "Bioinformatics Tools & Libraries",
+      "items": [
+        "Aligners: minimap2, BLAST+, Edlib",
+        "Libraries: libminimap2, GATK, Biopython, Edlib",
+        "Boost C++ Libraries"
+      ]
+    },
+    {
+      "name": "Machine Learning & Data Science",
+      "items": [
+        "PyTorch",
+        "TensorFlow",
+        "XGBoost",
+        "Dask",
+        "RAPIDS",
+        "scikit-learn",
+        "Graph Neural Networks (GNNs)"
+      ]
+    }
+  ]
+}

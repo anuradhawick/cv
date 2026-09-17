@@ -1,0 +1,420 @@
+{
+  "lastUpdated": "2026-09-17",
+  "scholarProfileUrl": "https://scholar.google.com/citations?hl=en&user=u-rFXwUAAAAJ",
+  "publications": [
+    {
+      "title": "GraphBin: refined binning of metagenomic contigs using assembly graphs",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:WF5omc3nYNoC",
+      "authors": "V Mallawaarachchi, A Wickramarachchi, Y Lin",
+      "venue": "Bioinformatics 36 (11), 3307-3313, 2020",
+      "citations": 112,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=16056881934036756147",
+      "year": 2020
+    },
+    {
+      "title": "Future-proofing genomic data and consent management: a comprehensive review of technology innovations",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:HDshCWvjkbEC",
+      "authors": "A Oliva, A Kaphle, R Reguant, LMF Sng, NA Twine, Y Malakar, ...",
+      "venue": "GigaScience 13, giae021, 2024",
+      "citations": 41,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7855800402344737898",
+      "year": 2024
+    },
+    {
+      "title": "Binning long reads in metagenomics datasets using composition and coverage information",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:-f6ydRqryjwC",
+      "authors": "A Wickramarachchi, Y Lin",
+      "venue": "Algorithms for Molecular Biology 17 (1), 14, 2022",
+      "citations": 37,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3461831484362382577",
+      "year": 2022
+    },
+    {
+      "title": "MetaBCC-LR: metagenomics binning by coverage and composition for long reads",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:roLk4NBRz8UC",
+      "authors": "A Wickramarachchi, V Mallawaarachchi, V Rajan, Y Lin",
+      "venue": "Bioinformatics 36 (Supplement_1), i3-i11, 2020",
+      "citations": 35,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3493682152356609696",
+      "year": 2020
+    },
+    {
+      "title": "Managing complex workflows in bioinformatics: an interactive toolkit with gpu acceleration",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:2osOgNQ5qMEC",
+      "authors": "A Welivita, I Perera, D Meedeniya, A Wickramarachchi, ...",
+      "venue": "IEEE transactions on nanobioscience 17 (3), 199-208, 2018",
+      "citations": 35,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3414650906802616958",
+      "year": 2018
+    },
+    {
+      "title": "Solving genomic puzzles: computational methods for metagenomic binning",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:TQgYirikUcIC",
+      "authors": "V Mallawaarachchi, A Wickramarachchi, H Xue, B Papudeshi, SR Grigson, ...",
+      "venue": "Briefings in Bioinformatics 25 (5), bbae372, 2024",
+      "citations": 23,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13177059506598716044",
+      "year": 2024
+    },
+    {
+      "title": "GraphBin2: Refined and overlapped binning of metagenomic contigs using assembly graphs",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:UebtZRa9Y70C",
+      "authors": "VG Mallawaarachchi, AS Wickramarachchi, Y Lin",
+      "venue": "20th International Workshop on Algorithms in Bioinformatics (WABI 2020), 2020",
+      "citations": 23,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=272770884381284488",
+      "year": 2020
+    },
+    {
+      "title": "Improving metagenomic binning results with overlapped bins using assembly graphs",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:kNdYIx-mwKoC",
+      "authors": "VG Mallawaarachchi, AS Wickramarachchi, Y Lin",
+      "venue": "Algorithms for Molecular Biology 16 (1), 3, 2021",
+      "citations": 22,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=10277147720568966530",
+      "year": 2021
+    },
+    {
+      "title": "Dimensionality reduction for cluster identification in metagenomics using autoencoders",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:0EnyYjriUFMC",
+      "authors": "U Maduranga, K Wijegunarathna, S Weerasinghe, I Perera, ...",
+      "venue": "2020 20th International Conference on Advances in ICT for Emerging Regions …, 2020",
+      "citations": 17,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12066048271160090993",
+      "year": 2020
+    },
+    {
+      "title": "LRBinner: binning long reads in metagenomics datasets",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:hFOr9nPyWt4C",
+      "authors": "A Wickramarachchi, Y Lin",
+      "venue": "21st International Workshop on Algorithms in Bioinformatics (WABI 2021), 2021",
+      "citations": 16,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8010340643340981677",
+      "year": 2021
+    },
+    {
+      "title": "Metagenomics binning of long reads using read-overlap graphs",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:4DMP91E08xMC",
+      "authors": "A Wickramarachchi, Y Lin",
+      "venue": "RECOMB International Workshop on Comparative Genomics, 260-278, 2022",
+      "citations": 13,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=5393040268017257684",
+      "year": 2022
+    },
+    {
+      "title": "Experiential learning in bioinformatics–learner support for complex workflow modelling and analysis",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:Se3iqnhoufwC",
+      "authors": "V Mallawaarachchi, A Wickaramarachchi, A Weliwita, I Perera, ...",
+      "venue": "International Journal of Emerging Technologies in Learning 13 (12), 19-34, 2018",
+      "citations": 12,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12179466065003635919",
+      "year": 2018
+    },
+    {
+      "title": "Scalable genomic data exchange and analytics with sBeacon",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:qUcmZB5y_30C",
+      "authors": "A Wickramarachchi, B Hosking, Y Jain, J Grimes, MJ O’Brien, T Wright, ...",
+      "venue": "nature biotechnology 41 (11), 1510-1512, 2023",
+      "citations": 10,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13443114986091935706",
+      "year": 2023
+    },
+    {
+      "title": "Risk assessment for controlling mosquito vectors with engineered nucleases: paternal male bias construct",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:r0BpntZqJG4C",
+      "authors": "GR Hosack, NJ Beeton, A Ickowicz, D Peel, A Wilkins, JM Dambacher, ...",
+      "venue": "Report No. EP2022-4945. Hobart, Australia: CSIRO 10, 2023",
+      "citations": 8,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15290490949444113216",
+      "year": 2023
+    },
+    {
+      "title": "Alignment-free whole genome comparison using k-mer forests",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:eQOLeE2rZwMC",
+      "authors": "G Gamage, N Gimhana, A Wickramarachchi, V Mallawaarachchi, I Perera",
+      "venue": "2019 19th International Conference on Advances in ICT for Emerging Regions …, 2019",
+      "citations": 8,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15952938360491139018",
+      "year": 2019
+    },
+    {
+      "title": "Efficient bioinformatics computations through GPU accelerated web services",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:9yKSN-GCB0IC",
+      "authors": "V Mallawaarachchi, A Wickramarachchi, A Welivita, I Perera, ...",
+      "venue": "Proceedings of the 2nd International Conference on Algorithms, Computing and …, 2018",
+      "citations": 8,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3088100913160357738",
+      "year": 2018
+    },
+    {
+      "title": "GraphPlas: refined classification of plasmid sequences using assembly graphs",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:Zph67rFs4hoC",
+      "authors": "A Wickramarachchi, Y Lin",
+      "venue": "IEEE/ACM transactions on computational biology and bioinformatics 19 (1), 57-67, 2021",
+      "citations": 7,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2573537474317405529",
+      "year": 2021
+    },
+    {
+      "title": "Phylogenetic tree construction using K-mer forest-based distance calculation",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:LkGwnXOMwfcC",
+      "authors": "G Gamage, N Gimhana, I Perera, S Bandara, T Pathirana, ...",
+      "venue": "International Association of Online Engineering, 2020",
+      "citations": 6,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7985629992256755415",
+      "year": 2020
+    },
+    {
+      "title": "Prediction of antibiotic susceptibility in E. coli Isolates using machine learning",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:R3hNpaxXUhUC",
+      "authors": "B Talamantes-Becerra, A Wickramarachchi, DC Bauer, L Sng, A Nguyen, ...",
+      "venue": "Health. Innovation. Community: It Starts With Us: Papers from the 28th …, 2024",
+      "citations": 5,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8278254007750475780",
+      "year": 2024
+    },
+    {
+      "title": "Synsor: a tool for alignment-free detection of engineered DNA sequences",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:mB3voiENLucC",
+      "authors": "AP Tay, K Didi, A Wickramarachchi, DC Bauer, LOW Wilson, M Maselko",
+      "venue": "Frontiers in Bioengineering and Biotechnology 12, 1375626, 2024",
+      "citations": 5,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=6009903136294083592",
+      "year": 2024
+    },
+    {
+      "title": "A realtime monitoring platform for workflow subroutines",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:UeHWp8X0CEIC",
+      "authors": "D Rathnayake, A Wickramarachchi, V Mallawaarachchi, D Meedeniya, ...",
+      "venue": "2018 18th International Conference on Advances in ICT for Emerging Regions …, 2018",
+      "citations": 5,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7633195121758233376",
+      "year": 2018
+    },
+    {
+      "title": "CapBuild: a cloud-native tool for adeno-associated virus capsid engineering",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:4JMBOYKVnBMC",
+      "authors": "AH Klein, MJ Kuiper, M Burgess, A Wickramarachchi, Y Jain, DC Bauer, ...",
+      "venue": "Nucleic Acids Research 53 (W1), W110-W117, 2025",
+      "citations": 4,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=709596284824772602",
+      "year": 2025
+    },
+    {
+      "title": "Resource aware task clustering for scientific workflow execution in high performance computing environments",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:3fE2CSJIrl8C",
+      "authors": "A Weerasinghe, K Wijethunga, R Jayasekara, I Perera, ...",
+      "venue": "2020 IEEE 22nd International Conference on High Performance Computing and …, 2020",
+      "citations": 4,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7825439958421982298",
+      "year": 2020
+    },
+    {
+      "title": "Enhanced student learning in proteomics-an interactive tool support for teaching workflows",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:IjCSPb-OGe4C",
+      "authors": "A Wickramarachchi, V Mallawaarachchi, D Meedeniya, I Perera, ...",
+      "venue": "2018 IEEE International Conference on Teaching, Assessment, and Learning for …, 2018",
+      "citations": 4,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17118525461358519711",
+      "year": 2018
+    },
+    {
+      "title": "AskBeacon—performing genomic data exchange and analytics with natural language",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:e5wmG9Sq2KIC",
+      "authors": "A Wickramarachchi, S Tonni, S Majumdar, S Karimi, S Kõks, B Hosking, ...",
+      "venue": "Bioinformatics 41 (3), btaf079, 2025",
+      "citations": 3,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15918621075536020934",
+      "year": 2025
+    },
+    {
+      "title": "Use of nomadic computing devices for storage synchronization",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:d1gkVwhDpl0C",
+      "authors": "A Wickramarachchi, D Atapattu, P Wimalasiri, RM Arachchi, G Dias",
+      "venue": "International Conference on Information Networking (ICOIN), 2018, 673-678, 2018",
+      "citations": 3,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=17527871328856815878",
+      "year": 2018
+    },
+    {
+      "title": "Cluster identification in metagenomics–a novel technique of dimensionality reduction through autoencoders",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:MXK_kJrjxJIC",
+      "authors": "K Wijegunarathna, U Maduranga, S Weerasinghe, I Perera, ...",
+      "venue": "International Journal on Advances in ICT for Emerging Regions (ICTer) 14 (2 …, 2021",
+      "citations": 2,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=2938627924431462697",
+      "year": 2021
+    },
+    {
+      "title": "SwarmForm: A Distributed Workflow Management System with Task Clustering",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:5nxA0vEk-isC",
+      "authors": "A Weerasinghe, K Wijethunga, R Jayasekara, I Perera, ...",
+      "venue": "2020 20th International Conference on Advances in ICT for Emerging Regions …, 2020",
+      "citations": 2,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11794154464956546759",
+      "year": 2020
+    },
+    {
+      "title": "An adapter architecture for heterogeneous data processing in bioinformatics pipelines",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:YsMSGLbcyi4C",
+      "authors": "D Lenadora, A Wickramarachchi, D Meedeniya, V Mallawaarachchi, ...",
+      "venue": "2019 Moratuwa Engineering Research Conference (MERCon), 692-697, 2019",
+      "citations": 2,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=15757023175671754773",
+      "year": 2019
+    },
+    {
+      "title": "GraphBin-Tk: assembly graph-based metagenomic binning toolkit",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:j3f4tGmQtD8C",
+      "authors": "V Mallawaarachchi, A Wickramarachchi, R McArthur, Y Lang, K Caley, ...",
+      "venue": "Journal of Open Source Software 10 (109), 7713, 2025",
+      "citations": 1,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=14928021388937083439",
+      "year": 2025
+    },
+    {
+      "title": "MetaPCbin: plasmid/chromosome classification for metagenomic contigs using machine learning techniques",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:mVmsd5A6BfQC",
+      "authors": "C Nandasiri, S Alahakoon, G Dassanayake, A Wickramarachchi, I Perera",
+      "venue": "2022 Moratuwa Engineering Research Conference (MERCon), 1-6, 2022",
+      "citations": 1,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11363721982069230656",
+      "year": 2022
+    },
+    {
+      "title": "Models and algorithms for metagenomics analysis and Plasmid classification",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:IWHjjKOFINEC",
+      "authors": "A Wickramarachchi",
+      "venue": "PQDT-Global, 2022",
+      "citations": 1,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=3612090594133125897",
+      "year": 2022
+    },
+    {
+      "title": "PlasLR Enables Adaptation of Plasmid Prediction for Error-Prone Long Reads",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:YOwf2qJgpHMC",
+      "authors": "A Wickramarachchi, V Mallawaarachchi, L Pu, Y Lin",
+      "venue": "bioRxiv, 2021.06. 14.448306, 2021",
+      "citations": 1,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=11913855205757187710",
+      "year": 2021
+    },
+    {
+      "title": "A Scalable Bioinformatics Analysis Platform based on Microservices Architecture",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:W7OEmFMy1HYC",
+      "authors": "S Rajapaksa, A Wickramarachchi, V Mallawaarachchi, W Rasanjana, ...",
+      "venue": "2019 International Research Conference on Smart Computing and Systems …, 2019",
+      "citations": 1,
+      "citationsUrl": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=13272631863753683889",
+      "year": 2019
+    },
+    {
+      "title": "Bioinformatic assessment of the potential for harm to humans via horizontal gene transfer from the planned release of genetically modified mosquito vectors",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:iH-uZ7U-co4C",
+      "authors": "A Wickramarachchi, M McDonald, D Bauer, KR Hayes, GR Hosack, ...",
+      "venue": "Journal of Biosafety and Biosecurity, 2026",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2026
+    },
+    {
+      "title": "MetaGraph: Plasmid/Chromosome Classification Enhancement Using Graph Neural Networks",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:9ZlFYXVOiuMC",
+      "authors": "S Alahakoon, G Dassanayake, C Nandasiri, A Wickramarachchi, I Perera",
+      "venue": "2022 Moratuwa Engineering Research Conference (MERCon), 1-6, 2022",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2022
+    },
+    {
+      "title": "Binning long reads in metagenomics datasets using composition and coverage information",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:Wp0gIr-vW9MC",
+      "authors": "A Wickramarachchi, Y Lin",
+      "venue": "Algorithms for Molecular Biology 17 (1), 14, 2022",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2022
+    },
+    {
+      "title": "Tool Support for Distributed Workflow Management with Task Clustering",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:aqlVkmm33-oC",
+      "authors": "A Weerasinghe, K Wijethunga, R Jayasekara, I Perera, ...",
+      "venue": "International Journal on Advances in ICT for Emerging Regions (ICTer) 14 (2), 2021",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2021
+    },
+    {
+      "title": "MetaG: a comprehensive visualization tool to explore metagenomes",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:8k81kl-MbHgC",
+      "authors": "K Wijegunarathna, U Maduranga, S Weerasinghe, I Perera, ...",
+      "venue": "2020 IEEE International Conference on Bioinformatics and Biomedicine (BIBM …, 2020",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2020
+    },
+    {
+      "title": "Genetic Distance Calculation based on Locality Sensitive Hashing",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:ufrVoPGSRksC",
+      "authors": "T Pathirana, S Bandara, G Gamage, N Gimhana, A Wickramarachchi, ...",
+      "venue": "bioRxiv, 2020.04. 06.027250, 2020",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2020
+    },
+    {
+      "title": "LIPIcs, Volume 172, WABI 2020, Complete Volume",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:_Qo2XoVZTnwC",
+      "authors": "C Kingsford, N Pisanti",
+      "venue": "20th International Workshop on Algorithms in Bioinformatics (WABI 2020), 2020",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2020
+    },
+    {
+      "title": "Efficient scheduling for scalable bioinformatics analysis platform with microservices",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:Y0pCki6q_DkC",
+      "authors": "S Prasadi, V Mallawaarachchi, A Wickramarachchi, I Perera, ...",
+      "venue": "2018 18th International Conference on Advances in ICT for Emerging Regions …, 2018",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2018
+    },
+    {
+      "title": "Remote Access and Synchronization Over Nomadic Devices for Personal Clouds",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:Tyk-4Ss8FVUC",
+      "authors": "A Wickramarachchi, G Dias",
+      "venue": "2018 18th International Conference on Advances in ICT for Emerging Regions …, 2018",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2018
+    },
+    {
+      "title": "Extending Personal Computer Storages for Improved Access over Web Interfaces",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:zYLM7Y9cAGgC",
+      "authors": "A Wickramarachchi, V Mallawaarachchi",
+      "venue": "2018 5th International Conference on Information Science and Control …, 2018",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2018
+    },
+    {
+      "title": "Non-Internet Synchronization for Distributed Storages",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:u5HHmVD_uO8C",
+      "authors": "A Wickramarachchi, D Atapattu, P Wimalasiri, RM Arachchi, G Dias",
+      "venue": "Asia Modelling Symposium (AMS), 2017, 2017",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 2017
+    },
+    {
+      "title": "Remote Access for Personal Cloud Devices",
+      "titleUrl": "https://scholar.google.comcitations?view_op=view_citation&hl=en&user=u-rFXwUAAAAJ&pagesize=100&citation_for_view=u-rFXwUAAAAJ:qjMakFHDy7sC",
+      "authors": "A Wickramarachchi, V Mallawaarachchi",
+      "venue": "",
+      "citations": 0,
+      "citationsUrl": "",
+      "year": 0
+    }
+  ]
+}

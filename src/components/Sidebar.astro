@@ -1,0 +1,141 @@
+---
+import profile from '../data/profile.json';
+import sections from '../data/sections.json';
+import ThemeToggle from './ThemeToggle.astro';
+
+const toggleableSections = sections.filter(s => s.toggleable);
+const navSections = sections.filter(s => s.nav);
+---
+
+<div class="flex flex-col gap-6 w-full text-[var(--text-primary)]">
+  <!-- Avatar & Identity -->
+  <div class="flex flex-col items-center text-center gap-3">
+    <div class="relative group">
+      <div class="h-44 w-44 sm:h-48 sm:w-48 overflow-hidden rounded-2xl border-2 border-[var(--border-color)] bg-[var(--bg-tertiary)] shadow-xl transition-all duration-300 group-hover:border-[var(--accent-color)]">
+        <img
+          src={profile.avatar}
+          alt={profile.name}
+          class="h-full w-full object-cover object-top"
+          loading="eager"
+        />
+      </div>
+    </div>
+    <div>
+      <h2 class="text-xl font-bold tracking-tight text-[var(--text-primary)]">{profile.shortName}</h2>
+      <p class="text-xs font-semibold uppercase tracking-[0.15em] text-[var(--accent-color)] mt-0.5">{profile.subTagline}</p>
+      <p class="text-[0.75rem] text-[var(--text-muted)] mt-1">{profile.location}</p>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="h-px w-full bg-[var(--border-color)]"></div>
+
+  <!-- Quick Utility Actions -->
+  <div class="flex items-center gap-2 no-print">
+    <button
+      type="button"
+      id="print-btn"
+      class="flex-1 flex items-center justify-center gap-1.5 rounded-lg border border-[var(--border-color)] bg-[var(--bg-primary)] px-3 py-2 text-xs font-semibold text-[var(--text-primary)] hover:border-[var(--accent-color)] hover:text-[var(--accent-color)] transition shadow-xs cursor-pointer"
+      title="Print or Save CV to PDF"
+    >
+      <svg class="w-4 h-4 text-[var(--accent-color)]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z" />
+      </svg>
+      <span>Print / PDF</span>
+    </button>
+
+    <button
+      type="button"
+      id="reset-sections-btn"
+      class="rounded-lg border border-[var(--border-color)] bg-[var(--bg-primary)] px-3 py-2 text-xs font-medium text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--accent-color)] transition cursor-pointer"
+      title="Reset sections to default visibility"
+    >
+      Reset
+    </button>
+
+    <div class="shrink-0">
+      <ThemeToggle />
+    </div>
+  </div>
+
+  <!-- Jump to Section (Table of Contents) -->
+  <nav class="space-y-1 no-print">
+    <div class="flex items-center justify-between pb-1.5 border-b border-[var(--border-color)]">
+      <span class="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Jump to Section</span>
+    </div>
+    <ul class="space-y-1 pt-1 text-xs" id="nav-links-list">
+      {navSections.map((sec) => (
+        <li>
+          <a
+            href={`#${sec.id}`}
+            data-nav-target={sec.id}
+            class="nav-link flex items-center justify-between rounded-lg px-2.5 py-1.5 text-[var(--text-secondary)] hover:bg-[var(--bg-tertiary)] hover:text-[var(--text-primary)] transition"
+          >
+            <span>{sec.title}</span>
+            <span class="nav-indicator text-[10px] text-[var(--accent-color)] font-mono opacity-0">→</span>
+          </a>
+        </li>
+      ))}
+    </ul>
+  </nav>
+
+  <!-- Section Show/Hide Toggles -->
+  <div class="space-y-2.5 no-print" id="toggles-container">
+    <div class="flex items-center justify-between pb-1 border-b border-[var(--border-color)]">
+      <span class="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Show / Hide Sections</span>
+      <button
+        type="button"
+        id="toggle-all-btn"
+        class="text-[11px] text-[var(--accent-color)] hover:underline cursor-pointer"
+      >
+        Show All
+      </button>
+    </div>
+
+    <form class="flex flex-col gap-2" onsubmit="return false;">
+      {toggleableSections.map((sec) => (
+        <label
+          class="flex cursor-pointer items-center gap-2.5 rounded-lg border border-[var(--border-color)] bg-[var(--bg-primary)] px-3 py-2 text-xs text-[var(--text-primary)] shadow-xs transition hover:border-[var(--accent-color)] hover:bg-[var(--bg-tertiary)] select-none"
+        >
+          <span class="relative inline-flex h-4 w-4 shrink-0 items-center justify-center rounded border border-[var(--border-color)] bg-[var(--bg-secondary)] shadow-xs">
+            <input
+              type="checkbox"
+              data-toggle-target={sec.id}
+              class="section-toggle-input peer absolute inset-0 h-full w-full cursor-pointer opacity-0"
+              checked={sec.defaultVisible}
+            />
+            <span class="pointer-events-none inline-block h-2.5 w-2.5 scale-0 rounded-xs bg-[var(--accent-color)] transition-transform duration-150 ease-out peer-checked:scale-100"></span>
+          </span>
+          <span class="flex flex-col leading-tight">
+            <span class="font-medium text-[var(--text-primary)]">{sec.title}</span>
+            <span class="text-[10px] text-[var(--text-muted)]">{sec.description}</span>
+          </span>
+        </label>
+      ))}
+    </form>
+  </div>
+
+  <!-- Connect & Social Links -->
+  <div class="space-y-2 pt-2 border-t border-[var(--border-color)]">
+    <span class="text-xs font-bold uppercase tracking-wider text-[var(--text-muted)]">Connect</span>
+    <div class="flex flex-wrap gap-2">
+      {profile.links.map((link) => (
+        <a
+          href={link.url}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="rounded-md border border-[var(--border-color)] bg-[var(--bg-primary)] px-2.5 py-1 text-xs text-[var(--text-secondary)] hover:text-[var(--accent-color)] hover:border-[var(--accent-color)] transition"
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="mt-auto pt-4 text-center text-[10px] text-[var(--text-muted)]">
+    <p class="uppercase tracking-widest">
+      Copyright © {profile.copyrightYear} {profile.shortName}
+    </p>
+  </div>
+</div>

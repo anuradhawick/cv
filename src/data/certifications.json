@@ -1,0 +1,35 @@
+{
+  "sectionTitle": "Training and Certifications",
+  "items": [
+    {
+      "name": "Certified Carpentries Instructor",
+      "year": 2024,
+      "issuer": "The Carpentries"
+    },
+    {
+      "name": "Introduction to SaMD, IEC 62304 and IEC 82304-1",
+      "year": 2023,
+      "issuer": "Software as a Medical Device Standard Training"
+    },
+    {
+      "name": "Deep Learning Specialization",
+      "year": 2021,
+      "issuer": "DeepLearning.AI"
+    },
+    {
+      "name": "Getting Started with AI on JETSON NANO",
+      "year": 2021,
+      "issuer": "NVIDIA Deep Learning Institute"
+    },
+    {
+      "name": "PyTorch for Deep Learning with Python Bootcamp",
+      "year": 2021,
+      "issuer": "Udemy"
+    },
+    {
+      "name": "Machine Learning",
+      "year": 2020,
+      "issuer": "Stanford Online"
+    }
+  ]
+}
