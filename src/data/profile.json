@@ -4,10 +4,14 @@
   "tagline": "Software Engineer · Scientist · Researcher",
   "subTagline": "Engineer · Scientist · Researcher",
   "avatar": "/me-removebg.png",
-  "email": "anuradha.c.wickramarachchi@gmail.com",
+  "email": "hello@anuradhawick.com",
   "location": "Adelaide, Australia",
   "summary": "I am a Software Engineer at AML3D developing algorithms for advanced manufacturing applications (Wire Arc Additive Manufacturing – WAAM). With a PhD in Computer Science from the Australian National University (ANU) and background as a Solutions Architect at CSIRO, I bridge software engineering, computational science, and research across advanced manufacturing, distributed cloud systems, and machine learning.\n\nPreviously at Commonwealth Scientific and Industrial Research Organisation (CSIRO), I designed and built solutions for population-scale health and biosecurity problems that scale to real-world population sizes.\n\nI am passionate about high-performance computing, distributed cloud systems, data engineering, bioinformatics, and computational geometry.",
   "links": [
+    {
+      "label": "Email",
+      "url": "mailto:hello@anuradhawick.com"
+    },
     {
       "label": "Website",
       "url": "https://anuradhawick.com"
